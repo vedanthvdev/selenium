@@ -18,6 +18,7 @@ Layout/SpaceInsideHashLiteralBraces:
 Metrics/AbcSize:
   Max: 30
   Exclude:
+    - 'lib/selenium/webdriver/common/options.rb'
     - 'lib/selenium/webdriver/remote/capabilities.rb'
     - 'lib/selenium/webdriver/remote/http/curb.rb'
     - 'lib/selenium/webdriver/support/color.rb'
@@ -49,6 +50,7 @@ Metrics/MethodLength:
   Max: 22
   Exclude:
     - 'lib/selenium/server.rb'
+    - 'lib/selenium/webdriver/common/options.rb'
     - 'lib/selenium/webdriver/common/driver.rb'
     - 'lib/selenium/webdriver/remote/http/default.rb'
 
@@ -62,6 +64,7 @@ Metrics/ModuleLength:
 Metrics/PerceivedComplexity:
   Max: 9
   Exclude:
+    - 'lib/selenium/webdriver/common/options.rb'
     - 'lib/selenium/webdriver/common/local_driver.rb'
     - 'lib/selenium/webdriver/common/logger.rb'
 
